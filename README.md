@@ -11,3 +11,5 @@ Other Spongebob images from SpongeBob SquarePants show of Nickelodeon
 GitHub, LinkedIn, and Twitter Icons from DeviCon
 
 Other icons (phone, email, external link) from https://materialdesignicons.com/
+
+Thank you to <a href="https://imageresizer.com/bulk-resize" target="_blank">Bulk Image Resizer</a> for resizing Spongebob jpgs
