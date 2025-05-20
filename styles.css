@@ -2,10 +2,66 @@ body{
     background-color:rgb(71, 223, 152);
 }
 
-/* Overall layout */
-body{
-    display:flex;
-    flex-direction:column;
+body,h1,h2,h3,h4,p,div,figure{
+    margin:0;
+    padding:0;
 }
 
+/* Overall layout */
+
 /* Stylize header area */
+header{
+    display: flex;
+
+    section.about.section{
+        display:flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+
+        figure{
+            align-self:center;
+            max-width: min-content;
+            position: relative;
+
+            img{
+                height: auto;
+                object-fit: contain;
+            }
+    
+            figcaption{
+                position:absolute;
+                bottom:5px;
+                right: 5px;
+                text-align: right;
+                font-size: 35px;
+                color: black;
+                max-width: 300px
+            }
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        nav{
+            align-self:center;
+        }
+    }
+
+    div.background.rectangle{
+        background-color:blue;
+        position:absolute;
+        height: 500px;
+        width: 100em;
+        transform: rotate(-30deg) translateX(-50%);
+        transform-origin: top left;
+        box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+
+
+}
