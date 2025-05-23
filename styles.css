@@ -1,5 +1,10 @@
+*{
+    --background-accent:rgb(106, 43, 255);
+    --background-main: rgb(71, 223, 152)
+}
+
 body{
-    background-color:rgb(71, 223, 152);
+    background-color:var(--background-main);
 }
 
 body,h1,h2,h3,h4,p,div,figure{
@@ -63,7 +68,7 @@ header{
 
     div.background.rectangle{
         position:absolute;
-        background: #4f46e5; /* Indigo-600 */
+        background: var(--background-accent);
         height: 500px;
         width: 100%;
         clip-path: polygon(0 0, 100% 0, 100% 10%, 0 100%);
