@@ -62,14 +62,12 @@ header{
     }
 
     div.background.rectangle{
-        background-color:blue;
         position:absolute;
-        height: 450px;
-        width: 100em;
-        transform: rotate(-30deg) translateX(-50%);
-        transform-origin: top left;
-        box-shadow: 2px 2px 4px rgb(0, 0, 0);
-        overflow: hidden;
+        background: #4f46e5; /* Indigo-600 */
+        height: 500px;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 10%, 0 100%);
+        filter: drop-shadow(0 4px 10px rgb(0, 0, 0));
     }
 
 
