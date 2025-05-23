@@ -50,17 +50,26 @@ header{
 
         nav{
             align-self:center;
+            display:flex;
+            flex-direction: row;
+            gap: 20px;
+
+            img{
+                width:32px;
+                height: auto;
+            }
         }
     }
 
     div.background.rectangle{
         background-color:blue;
         position:absolute;
-        height: 500px;
+        height: 450px;
         width: 100em;
         transform: rotate(-30deg) translateX(-50%);
         transform-origin: top left;
         box-shadow: 2px 2px 4px rgb(0, 0, 0);
+        overflow: hidden;
     }
 
 
